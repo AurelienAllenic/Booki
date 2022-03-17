@@ -681,7 +681,7 @@
     padding-bottom : 3%;
     color : rgb(0, 101, 252, 1);
     width : 45%;
-    padding-left : 15%;
+    padding-left : 10%;
     padding-right : 20%;
     display : inline-block;
     }
@@ -693,7 +693,7 @@
     padding-bottom : 3%;
     color : #252222;
     width : 30%;
-    padding-right : 33%;
+    padding-right : 32%;
     padding-left : 21%;
     display : inline-block;
     }
@@ -761,6 +761,7 @@
     margin-top : 1%;
     align-items : center;
     object-fit: contain;
+    padding-bottom: 3%;
     }
    
     .column-mob2 {
