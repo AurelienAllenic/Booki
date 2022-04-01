@@ -89,7 +89,7 @@
   
   #logo {
   max-width : 1000px;
-  max-height : 50px;
+  max-height : 150px;
   padding-left : 10px;
   padding-top : 10px;
   float : left;
@@ -116,7 +116,7 @@
   width : 100%;
   }
   
-  #choices {
+  nav {
   list-style : none;
   display : flex;
   justify-content : space-between;
@@ -371,7 +371,7 @@
   margin-left : 37%;
   }
   
-  #choices {
+nav {
   font-size : 100%;
   justify-content : space-between;
   padding-top: 3%;
@@ -670,7 +670,7 @@
   margin-left : 37%;
   }
  
-  #choices {
+  nav {
   font-size : 100%;
   justify-content : space-between;
   }
@@ -748,6 +748,11 @@
  
   .display-desk {
   display : none;
+  }
+
+  .display-mob
+  {
+    display: none;
   }
  
   #filtres {

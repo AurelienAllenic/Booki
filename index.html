@@ -11,48 +11,39 @@
         <title>Booki.com</title>
 </head>
 <body>
-    <div class="page">
+    <main class="page">
         <header>
             <div id="menu">
                 <img src="img/Booki.png" id="logo" title="logo">
-        
-                <nav id="choices">  
+                <nav>  
                     <a class="heb bleu minor-title-mob" href="#hebergements">Hébergements</a>
                     <a class="act minor-title-mob" href="#activites">Activités</a>
                 </nav>
             </div> 
         </header>
-    
         <h1 class="main-title pt">Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2 class="minor-title minor-title-mob opacity-mob">En plein centre ville ou en pleine nature</h2>
-        
         <section id="selection">
-            <div class="search mb">
+            <form class="search mb">
                 <div class="localisation"><i class="fas fa-map-marker-alt"></i></div>
                 <input class="recherche minor-title strong" id="recherche" type="text" placeholder="Marseille, France">
                 <input class="main-title display-desk" type="submit" value= "Rechercher">
-                <span class="submit1"><i class="fas fa-search"></i><input class="display-mob icone-search" type="submit" value=""></span>
-            </div>
-
+                <span class="submit1"><input class="display-mob icone-search" type="submit" value=""><i class="fas fa-search"></i></span>
+            </form>
             <div id="filtres">
                 <p>
                     <span class="oneline-mob main-title">Filtres </span>
                     <span class="column-mob1"><a class="hover ml25 border-filtre main-title" href="#"><i class="fas fa-money-bill bleu pr border-icon"></i> Economique</a></span>
                     <span class="column-mob1"><a class="hover ml25 border-filtre main-title" href="#"><i class="fas fa-child bleu pr border-icon"></i> Familial</a></span>
                     <span class="column-mob1"><a class="hover ml25 border-filtre main-title" href="#"><i class="fas fa-heart bleu pr border-icon"></i> Romantique</a></span>
-                   <span class="column-mob2"><a class="hover ml25 border-filtre main-title" href="#"><i class="fas fa-dog bleu pr border-icon"></i> Animaux autorisés</a>
-                    </span>
+                    <span class="column-mob2"><a class="hover ml25 border-filtre main-title" href="#"><i class="fas fa-dog bleu pr border-icon"></i> Animaux autorisés</a></span>
                 </p>
             </div>
-            
-            <p class="minor-title mt"><i class="far fa-question-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
-            
+            <h3 class="minor-title mt"><i class="far fa-question-circle"></i> Plus de 500 logements sont disponibles dans cette ville</h3>
         </section>
-       
         <section class="hebpop">
-
             <div class="blochebergements" id="hebergements"> 
-                <p class="main-title margin-2-5">Hébergements à Marseille</p>
+                <h2 class="main-title margin-2-5">Hébergements à Marseille</h2>
                 <div>    
                     <div>
                         <a href="#">
@@ -63,58 +54,58 @@
                             <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star gris"></i>  
                         </div>
                         </a>  
-                            <a href="#">
-                                <div class="bloc-heb zoom">
-                                    <img class="img-heb" src="img/hebergements/hebergements_3_medium/port.jpg" alt="Hôtel du port">
-                                        <div class="margin-2-5">
-                                            <p class="main-title">Hôtel du port</p>
-                                            <p class="minor-title">Nuit à partir de <strong>52€</strong></p>
-                                            <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i>  
-                                        </div> 
-                                    </div>
-                            </a>
-                            <a href="#">
-                                <div class="bloc-heb zoom">
-                                    <img class="img-heb" src="img/hebergements/hebergements_3_medium/mouettes.jpg" alt="Hôtel les mouettes">
-                                        <div class="margin-2-5">
-                                            <p class="main-title">Hôtel Les mouettes</p>
-                                            <p class="minor-title">Nuit à partir de <strong>76€</strong></p>
-                                            <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star gris"></i>  
-                                        </div>
-                                    </div>
-                            </a>
+                        <a href="#">
+                        <div class="bloc-heb zoom">
+                            <img class="img-heb" src="img/hebergements/hebergements_3_medium/port.jpg" alt="Hôtel du port">
+                            <div class="margin-2-5">
+                                <p class="main-title">Hôtel du port</p>
+                                <p class="minor-title">Nuit à partir de <strong>52€</strong></p>
+                                <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i>  
+                            </div> 
+                        </div>
+                        </a>
+                        <a href="#">
+                            <div class="bloc-heb zoom">
+                            <img class="img-heb" src="img/hebergements/hebergements_3_medium/mouettes.jpg" alt="Hôtel les mouettes">
+                                <div class="margin-2-5">
+                                    <p class="main-title">Hôtel Les mouettes</p>
+                                    <p class="minor-title">Nuit à partir de <strong>76€</strong></p>
+                                    <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star gris"></i>  
+                                </div>
+                            </div>
+                        </a>
                         </div>
                             <a href="#">
-                                <div class="bloc-heb zoom">
-                                    <div class="row2">
-                                        <img class="img-heb"  src="img/hebergements/hebergements_3_medium/mer.jpg" alt="Hôtel de la mer">
-                                        <div class="margin-2-5">
-                                            <p class="main-title">Hôtel de la mer</p>
-                                            <p class="minor-title">Nuit à partir de <strong>46€</strong></p>
-                                            <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star gris"></i><i class="fas fa-star gris"></i>
-                                        </div>
+                            <div class="bloc-heb zoom">
+                                <div class="row2">
+                                    <img class="img-heb"  src="img/hebergements/hebergements_3_medium/mer.jpg" alt="Hôtel de la mer">
+                                    <div class="margin-2-5">
+                                        <p class="main-title">Hôtel de la mer</p>
+                                        <p class="minor-title">Nuit à partir de <strong>46€</strong></p>
+                                        <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star gris"></i><i class="fas fa-star gris"></i>
                                     </div>
                                 </div>
+                            </div>
                             </a>
                             <a href="#">
-                                <div class="bloc-heb zoom">
-                                    <img class="img-heb" src="img/hebergements/hebergements_3_medium/panier.jpg" alt="Auberge Le Panier">
-                                    <div class="margin-2-5">
-                                        <p class="main-title">Auberge Le Panier</p>
-                                        <p class="minor-title">Nuit à partir de <strong>23€</strong></p>
-                                        <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star gris"></i>  
-                                    </div>
+                            <div class="bloc-heb zoom">
+                                <img class="img-heb" src="img/hebergements/hebergements_3_medium/panier.jpg" alt="Auberge Le Panier">
+                                <div class="margin-2-5">
+                                    <p class="main-title">Auberge Le Panier</p>
+                                    <p class="minor-title">Nuit à partir de <strong>23€</strong></p>
+                                    <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star gris"></i>  
                                 </div>
+                            </div>
                             </a>
                             <a href="#">
-                                <div class="bloc-heb zoom">
-                                    <img class="img-heb" src="img/hebergements/hebergements_1_xlarge/amina.jpg" alt="Hôtel chez Amina">
-                                    <div class="margin-2-5">
-                                        <p class="main-title">Hôtel chez Amina</p>
-                                        <p class="minor-title">Nuit à partir de <strong>96€</strong></p>
-                                        <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i>
-                                    </div>
-                                    </div>
+                            <div class="bloc-heb zoom">
+                                <img class="img-heb" src="img/hebergements/hebergements_1_xlarge/amina.jpg" alt="Hôtel chez Amina">
+                                <div class="margin-2-5">
+                                    <p class="main-title">Hôtel chez Amina</p>
+                                    <p class="minor-title">Nuit à partir de <strong>96€</strong></p>
+                                    <i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i><i class="fas fa-star bleu"></i>
+                                </div>
+                            </div>
                             </a>
                             <div class="pb pt"><a href="#" class="main-title margin-2-5"><strong>Afficher plus</strong></a></div>
                         </div>
@@ -155,8 +146,8 @@
                 </section>
             <section id="activites">
              <div>
-                   <p class="margin-2-5 main-title">Activités à Marseille</p>
-                </div>
+                   <h3 class="margin-2-5 main-title">Activités à Marseille</h3>
+            </div>
 
                 <div class="activites">
                     <div class="bloc-act inline-block zoom-pop">
@@ -198,12 +189,9 @@
                                 <p class="main-title margin">Parc Longchamps</p>
                             </a>
                         </div>
-                </div>
-                
-                
-                
+                    </div>
+                </div>  
             </section>
-        </div>  
         <footer>
             <div class="bloc-footer spacebetween">
                 <div class="inline-block">
@@ -235,7 +223,8 @@
                             </p>
                     </div>
                 </div>
-            </div></div>
+            </div>
         </footer>
+        </main>
         </body>
         </html>
