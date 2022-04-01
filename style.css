@@ -734,6 +734,7 @@ nav {
 /* FOOTER MOBILE */
 
   .bloc-footer {
+  flex-direction: column;
   background-color : #f2f2f2;
   padding-top : 1%;
   width : 100%;
