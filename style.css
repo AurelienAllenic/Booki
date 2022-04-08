@@ -102,12 +102,20 @@
   
   .heb {
   padding-top : 10px;
-  border-top : 1px solid rgb(0, 101, 252, 1);
   line-height : 48px;
-  color : rgb(0, 101, 252, 1);
   font-size : 150%;
   }
   
+.heb:hover{
+  border-top : 1px solid rgb(0, 101, 252, 1);
+  color : rgb(0, 101, 252, 1);
+}
+
+.act:hover{
+  border-top : 1px solid rgb(0, 101, 252, 1);
+  color : rgb(0, 101, 252, 1);
+}
+
   #menu {
   display : flex;
   justify-content : space-between;
@@ -131,13 +139,15 @@
   
   input[type="text"] {
   border : none;
-  height : 35px;
+  height : 25px;
   }
+  
   
   input[type="submit"] {
   border : solid;
   border-radius : 0 10px 10px 0;
   background-color : #0065FC;
+  line-height : 25px;
   color : white;
   }
   
@@ -151,10 +161,9 @@
   padding-left : 5px;
   padding-right : 5px;
   display : inline-block;
-  line-height : 33px;
+  line-height : 25px;
   text-align : center;
   width : 30px;
-  margin-right : 10px;
   }
  
   #filtres {
@@ -176,9 +185,10 @@
   }
   
   .border-icon {
-  border-radius : 20px 20px 20px 20px;
+  border-radius : 30px 30px 30px 30px;
   background-color : #7badf8;
   padding : 0.75%;
+  margin-left: -0.4%;
   }
   
   .ml25 {
@@ -341,9 +351,10 @@
 /* HEADER TABLETTE */
 
   #logo {
-  margin-left : 33%;
-  width: 50%;
-  height: 250px;
+  margin-left: 30%;
+  min-width: 40%;
+  max-width: 48%;
+  height: auto;
   }
   
   #menu {
@@ -358,10 +369,9 @@ nav {
   
   .heb {
   padding-top : 10px;
-  border-top: none;
-  border-bottom : 3px solid rgb(0, 101, 252, 1);
+  border-bottom : 3px solid;
+  border-color : #f2f2f2;
   padding-bottom : 3%;
-  color : rgb(0, 101, 252, 1);
   width : 45%;
   padding-left : 15%;
   padding-right : 20%;
@@ -380,6 +390,18 @@ nav {
   display : inline-block;
   }
 
+  .heb:hover{
+    border-bottom : 3px solid rgb(0, 101, 252, 1);
+    color : rgb(0, 101, 252, 1);
+    border-top: none;
+  }
+  
+  .act:hover{
+    border-bottom : 3px solid rgb(0, 101, 252, 1);
+    color : rgb(0, 101, 252, 1);
+    border-top: none;
+  }
+  
   .column-mob1 {
   display : flex;
   justify-content : flex-start;
@@ -472,6 +494,7 @@ nav {
 
   .bloc-footer {
   background-color : #f2f2f2;
+  flex-direction: column;
   padding-top : 1%;
   width : 100%;
   }
@@ -522,7 +545,7 @@ nav {
 /* HEADER MOBILE */
 
   #logo {
-  margin-left : 35%;
+  margin-left : 30%;
   min-width: 40%;
   max-width: 48%;
   height: auto;
@@ -539,10 +562,9 @@ nav {
     
   .heb {
     padding-top : 10px;
-    border-top: none;
-    border-bottom : 3px solid rgb(0, 101, 252, 1);
+    border-bottom : 3px solid;
+    border-color : #f2f2f2;
     padding-bottom : 3%;
-    color : rgb(0, 101, 252, 1);
     width : 45%;
     padding-left : 10%;
     padding-right : 20%;
@@ -561,12 +583,23 @@ nav {
     display : inline-block;
     }
   
+    .heb:hover{
+      border-bottom : 3px solid rgb(0, 101, 252, 1);
+      color : rgb(0, 101, 252, 1);
+      border-top: none;
+    }
+    
+    .act:hover{
+      border-bottom : 3px solid rgb(0, 101, 252, 1);
+      color : rgb(0, 101, 252, 1);
+      border-top: none;
+    }
+
   input[type="text"] {
   display : inline-block;
-  border : solid;
   border-color : #f2f2f2;
   width : 65%;
-  height : 50px;
+  height : 35px;
   padding-top : 2%;
   padding-left : 4%;
   }
@@ -579,13 +612,25 @@ nav {
 
   .submit1 {
   display: block;
-  width: 5%;
-  height: 30px;
+  width: 7%;
+  height: 35px;
+  padding: 1%;
   border : solid;
   border-radius : 0 10px 10px 0;
   background-color : #0065FC;
   color : white;
   display: inline-block;
+  }
+
+  .localisation {
+    border-radius: 10px 0 0 10px;
+    background-color: #f2f2f2;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    width: 30px;
   }
 
   .display-desk {
