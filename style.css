@@ -86,8 +86,8 @@ a {
 /* DESKTOP */
 
 .page {
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 /* HEADER DESKTOP */
@@ -198,6 +198,12 @@ input[type="submit"] {
   width: 100%;
   margin-top: 3%;
   font-weight: 800;
+  margin-bottom: 1%;
+}
+
+.inline-mob1 {
+  width: 100%;
+  display: inline-block;
 }
 
 .border-filtre {
@@ -247,7 +253,7 @@ input[type="submit"] {
 
 .bloc-heb {
   background-color: white;
-  padding: 1%;
+  padding: 0.5%;
   border-radius: 30px 30px 30px 30px;
   box-shadow: 0 5px 5px 1px #f2f2f2;
   margin: 1%;
@@ -272,7 +278,7 @@ input[type="submit"] {
 
 .blocpopulaires {
   flex: none;
-  width: 38%;
+  width: 35%;
   margin-left: 2%;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
@@ -282,7 +288,7 @@ input[type="submit"] {
 .img-pop {
   border-radius: 30px 0 0 30px;
   object-fit: cover;
-  width: 40%;
+  width: 200px;
   height: 170px;
   overflow: hidden;
   float: left;
@@ -292,6 +298,7 @@ input[type="submit"] {
 
 .bloc-pop {
   height: 176px;
+  position: relative;
   background-color: white;
   border-radius: 30px 30px 30px 30px;
   box-shadow: 5px 5px 5px 5px #f2f2f2;
@@ -302,6 +309,12 @@ input[type="submit"] {
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 1%;
+}
+
+.position-star {
+  position: absolute;
+  top: 80%;
+  left: 40%;
 }
 
 /* ACTIVITES DESKTOP */
@@ -318,11 +331,11 @@ input[type="submit"] {
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 5px 5px 1px #f2f2f2;
   overflow: hidden;
-  width: 20%;
-  margin-right: 1%;
+  width: 18%;
+  margin-right: 2%;
   margin-bottom: 1%;
   margin-top: 1%;
-  margin-left: 3%;
+  margin-left: 0%;
 }
 
 .bloc-act {
@@ -340,7 +353,7 @@ input[type="submit"] {
   box-shadow: 0 5px 5px 1px #f2f2f2;
   overflow: hidden;
   width: 20%;
-  margin-left: 4%;
+  margin-left: 3%;
   margin-right: 2%;
   margin-bottom: 1%;
   margin-top: 1%;
@@ -352,24 +365,24 @@ input[type="submit"] {
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 5px 5px 1px #f2f2f2;
-  width: 95%;
+  width: 100%;
   display: inline-block;
   margin: 5%;
 }
 
 .bloc-act-light1 {
-  height: 30%;
+  height: 232px;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 5px 5px 1px #f2f2f2;
-  width: 80%;
+  width: 98%;
   display: inline-block;
   margin: 5%;
 }
 
 .img-act-lg {
   object-fit: cover;
-  height: 470px;
+  height: 451px;
   width: 100%;
 }
 
@@ -390,7 +403,7 @@ input[type="submit"] {
 .img-act-light2 {
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
-  height: 150px;
+  height: 130px;
   width: 100%;
 }
 
@@ -400,6 +413,7 @@ input[type="submit"] {
   background-color: #f2f2f2;
   flex-direction: row;
   padding-top: 1%;
+  width: 97%;
 }
 
 .propos {
@@ -424,6 +438,42 @@ input[type="submit"] {
   display: inline-block;
   width: 100%;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1615px) {
+
+.position-star {
+  position: absolute;
+  top: 80%;
+  left: 53%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1305px) {
+
+  .position-star {
+    position: absolute;
+    top: 80%;
+    left: 56%;
+  }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1227px) {
+
+    .position-star {
+      position: absolute;
+      top: 80%;
+      left: 65%;
+    }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1057px) {
+
+      .position-star {
+        position: absolute;
+        top: 80%;
+        left: 70%;
+      }
+      }
 
 /* TABLETTE */
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -558,6 +608,12 @@ input[type="submit"] {
 
   .zoom:hover {
     transform: scale(1.1);
+  }
+
+  .position-star {
+    position: absolute;
+    top: 90%;
+    left: 30%;
   }
 
   /* POPULAIRES TABLETTE */
@@ -788,12 +844,12 @@ input[type="submit"] {
   .submit1 {
     display: block;
     line-height: 25px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
     border: solid;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
     background-color: #0065fc;
     color: white;
     display: inline-block;
@@ -832,30 +888,51 @@ input[type="submit"] {
 
   .column-mob1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 1%;
     object-fit: contain;
     margin-right: 25px;
-    width: 70%;
+    width: 48%;
+    display: inline-block;
   }
 
   .column-mob2 {
     display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    object-fit: contain;
+    width: 32%;
+    display: inline-block;
+  }
+
+  .column-mob3 {
+    display: flex;
     flex-direction: column;
     margin-top: 1%;
     object-fit: contain;
-    width: 90%;
+    margin-right: 25px;
+    width: 46%;
+  }
+
+  .column-mob4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    object-fit: contain;
+    margin-right: 25px;
+    width: 62%;
   }
 
   .border-filtre {
-    width: 70%;
+    width: 100%;
     margin-right: 10px;
   }
 
   .border-filtre1 {
-    width: 69%;
+    width: 100%;
     margin-right: 10px;
     display: inline-block;
+    padding: 0%;
   }
 
   .border-icon {
@@ -864,6 +941,7 @@ input[type="submit"] {
     padding: 3%;
     margin-left: -1%;
   }
+  
 
 
   /* HEBERGEMENTS MOBILE */
@@ -899,13 +977,19 @@ input[type="submit"] {
   }
 
   .zoom:hover {
-    transform: scale(1.07);
+    transform: scale(1.03);
   }
 
   .margin-2-5 {
     margin-left: 2.5%;
     padding-top: 0%;
   }
+
+  .position-star {
+    bottom: 2%;
+    left: 40%;
+  }
+
   /* POPULAIRES MOBILE */
 
   .fr-trend {
@@ -965,24 +1049,25 @@ input[type="submit"] {
     padding: 1%;
     margin: 1%;
     width: 100%;
+    border-radius: 20px 20px 20px 20px;
   }
   .img-act-lg {
     border-radius: 10px 10px 0px 0px ;
     object-fit: cover;
-    height: 128px;
+    height: 184px;
     display: inline-block;
     width: 91%;
   }
 
   .img-act-light {
-    height: 128px;
+    height: 184px;
   }
 
   .bloc-act-light1 {
     width: 90%;
   }
   .img-act-light1, .img-act-light2 {
-    height: 128px;
+    height: 184px;
     width: 100%;
   }
 
