@@ -9,10 +9,15 @@
   margin: 1%;
 }
 
+.margin-page {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 /* GENERAL */
 
-.page {
-  font-family: Raleway;
+body {
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -86,8 +91,8 @@ a {
 /* DESKTOP */
 
 .page {
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 /* HEADER DESKTOP */
@@ -146,6 +151,7 @@ nav {
   margin-top: 3%;
   display: inline-block;
   width: 100%;
+  padding-bottom: 4%;
 }
 
 input[type="text"] {
@@ -278,7 +284,7 @@ input[type="submit"] {
 
 .blocpopulaires {
   flex: none;
-  width: 35%;
+  width: 37%;
   margin-left: 2%;
   background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
@@ -294,6 +300,10 @@ input[type="submit"] {
   float: left;
   padding-right: 4%;
   padding-bottom: 1.5%;
+}
+
+.title-pop {
+  display: inline-block;
 }
 
 .bloc-pop {
@@ -375,7 +385,7 @@ input[type="submit"] {
   background-color: white;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 5px 5px 1px #f2f2f2;
-  width: 98%;
+  width: 95%;
   display: inline-block;
   margin: 5%;
 }
@@ -413,7 +423,7 @@ input[type="submit"] {
   background-color: #f2f2f2;
   flex-direction: row;
   padding-top: 1%;
-  width: 97%;
+  width: 100%;
 }
 
 .propos {
@@ -439,41 +449,64 @@ input[type="submit"] {
   width: 100%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1615px) {
+
+@media screen and (min-width: 1333px) and (max-width: 1700px) {
+  .position-star {
+    position: absolute;
+    top: 80%;
+    left: 53%;
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1333px) {
 
 .position-star {
   position: absolute;
   top: 80%;
   left: 53%;
 }
+
+.img-pop {
+  width: 120px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1305px) {
+.blochebergements {
+  width: 62%;
+}
+
+.img-heb {
+  height: 150px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1074px) {
 
   .position-star {
     position: absolute;
     top: 80%;
     left: 56%;
   }
+
+  .main-title {
+    font-size: 74%;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1227px) {
+  .minor-title {
+    font-size: 68%;
+  }
 
-    .position-star {
-      position: absolute;
-      top: 80%;
-      left: 65%;
-    }
-    }
+  .fa-star {
+    font-size: 13px;
+  }
 
-    @media screen and (min-width: 768px) and (max-width: 1057px) {
+  .bloc-heb {
+    height: 250px;
+  }
 
-      .position-star {
-        position: absolute;
-        top: 80%;
-        left: 70%;
-      }
-      }
+  .img-heb {
+    height: 100px;
+  }
+  }
 
 /* TABLETTE */
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -487,6 +520,14 @@ input[type="submit"] {
     overflow-x: hidden;
   }
 
+  .margin-page {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .page {
+    margin: 0%;
+  }
   /* HEADER TABLETTE */
 
   #logo {
@@ -619,7 +660,7 @@ input[type="submit"] {
   /* POPULAIRES TABLETTE */
 
   .blocpopulaires {
-    width: 95%;
+    width: 100%;
     margin-top: 3%;
     background-color: #f2f2f2;
     border-radius: 10px 10px 10px 10px;
@@ -631,29 +672,54 @@ input[type="submit"] {
     padding-top: 12%;
     position: relative;
     text-align: inherit;
-  }
-
-  .bloc-pop {
-    height: 300px;
-    width: 90%;
+    display: flex;
+    justify-content: center;
   }
 
   .img-pop {
-    width: 100%;
+    width: 99%;
     border-radius: 30px 30px 30px 30px;
     padding-left: 1%;
     padding-right: 1%;
+    margin-bottom: 5%;
   }
+
+  .bloc-pop {
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .bloc-pop-tab {
+    height: 300px;
+    width: 70%;
+    margin-right: 0%;
+  }
+
+  .bloc-pop-tab1 {
+    height: 300px;
+    width: 80%;
+    margin-left: -32%;
+  }
+
+  .bloc-pop-tab2 {
+    height: 300px;
+    width: 90%;
+    margin-left: -41%;
+  }
+
   .tab-title {
-    margin-top: -5%;
+    margin-top: 1%;
     width: 100%;
     position: absolute;
-    top: 1%;
+    top: 4%;
+    display: flex;
+    justify-content: center;
   }
 
   .fr-trend {
     float: none;
     margin-right: 0%;
+    margin-left: 2%;
   }
 
   .pb-pop {
@@ -736,7 +802,6 @@ input[type="submit"] {
 
   .main-title {
     font-size: 130%;
-    margin-top: 20px;
     text-decoration: none;
   }
 
@@ -764,13 +829,19 @@ input[type="submit"] {
   .page {
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
     overflow-x: hidden;
-    width: 90%;
+    width: 100%;
+    margin-right: 20px;
   }
 
-  body {
-    width: 100%;
+
+  .margin-page {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .page {
+    margin: 0%;
   }
 
   /* HEADER MOBILE */
@@ -797,8 +868,8 @@ input[type="submit"] {
     border-color: #f2f2f2;
     padding-bottom: 3%;
     width: 50%;
-    padding-left: 10%;
-    padding-right: 40%;
+    padding-left: 15%;
+    padding-right: 45%;
     display: inline-block;
   }
 
@@ -808,8 +879,8 @@ input[type="submit"] {
     border-color: #f2f2f2;
     padding-bottom: 3%;
     color: #252222;
-    width: 25%;
-    padding-right: 40%;
+    width: 50%;
+    padding-right: 50%;
     padding-left: 20%;
     display: inline-block;
   }
@@ -1127,5 +1198,12 @@ input[type="submit"] {
 
   .mb {
     margin-bottom: 5%;
+  }
+}
+
+/* NE RIEN AFFICHER SI L'ECRAN EST TROP PETIT*/
+@media  screen and (max-width: 374px) {
+  .page {
+    display: none;
   }
 }
